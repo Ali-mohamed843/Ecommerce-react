@@ -16,14 +16,37 @@ export default function Navbar() {
       }`}
     >
       <div className="flex justify-between items-center px-6 py-2 max-w-7xl mx-auto">
-        <div className="text-2xl font-bold text-primary" style={{ fontFamily: "Inter, sans-serif" }}>
+        <div
+          className="text-2xl font-bold text-primary"
+          style={{ fontFamily: "Inter, sans-serif" }}
+        >
           LuxeRetail
         </div>
         <nav className="hidden md:flex items-center space-x-6 text-sm font-semibold tracking-wide">
-          <a className="text-primary font-bold border-b-2 border-primary pb-1" href="#">New Arrivals</a>
-          <a className="text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Categories</a>
-          <a className="text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Deals</a>
-          <a className="text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">About Us</a>
+          <a
+            className="text-primary font-bold border-b-2 border-primary pb-1"
+            href="#"
+          >
+            New Arrivals
+          </a>
+          <a
+            className="text-on-surface-variant hover:text-primary transition-colors duration-200"
+            href="#"
+          >
+            Categories
+          </a>
+          <a
+            className="text-on-surface-variant hover:text-primary transition-colors duration-200"
+            href="#"
+          >
+            Deals
+          </a>
+          <a
+            className="text-on-surface-variant hover:text-primary transition-colors duration-200"
+            href="#"
+          >
+            About Us
+          </a>
         </nav>
         <div className="flex items-center space-x-4">
           <div className="relative hidden lg:block">
@@ -32,13 +55,19 @@ export default function Navbar() {
               placeholder="Search products..."
               type="text"
             />
-            <span className="material-symbols-outlined absolute right-2 top-1/2 -translate-y-1/2 text-on-surface-variant">search</span>
+            <span className="material-symbols-outlined absolute right-2 top-1/2 -translate-y-1/2 text-on-surface-variant">
+              search
+            </span>
           </div>
-          <button className="flex items-center justify-center p-1 hover:bg-surface-variant rounded-full transition-colors">
-            <span className="material-symbols-outlined text-primary">shopping_cart</span>
+          <button className="flex items-center justify-center p-1 hover:bg-surface-variant rounded-full transition-colors cursor-pointer">
+            <span className="material-symbols-outlined text-primary">
+              shopping_cart
+            </span>
           </button>
-          <button className="flex items-center justify-center p-1 hover:bg-surface-variant rounded-full transition-colors">
-            <span className="material-symbols-outlined text-primary">person</span>
+          <button className="flex items-center justify-center p-1 hover:bg-surface-variant rounded-full transition-colors cursor-pointer">
+            <span className="material-symbols-outlined text-primary">
+              person
+            </span>
           </button>
         </div>
       </div>

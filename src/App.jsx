@@ -1,25 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import CategoriesGrid from "./components/CategoriesGrid";
-import TrendingProducts from "./components/TrendingProducts";
-import PromotionalBanner from "./components/PromotionalBanner";
-import TrustFeatures from "./components/TrustFeatures";
-import Footer from "./components/Footer";
-import Shop from "./pages/shop";
+import Navbar from "./components/UI/Navbar";
+import Footer from "./components/UI/Footer";
+import Shop from "./pages/Shop";
 import AboutUs from "./pages/AboutUs";
-
-function Home() {
-  return (
-    <main>
-      <Hero />
-      <CategoriesGrid />
-      <TrendingProducts />
-      <PromotionalBanner />
-      <TrustFeatures />
-    </main>
-  );
-}
+import ProductDetails from "./pages/ProductDetails";
+import Home from "./pages/Home";
 
 function App() {
   return (
@@ -30,11 +15,12 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/products/:id" element={<ProductDetails />} />{" "}
         </Routes>
         <Footer />
       </div>
     </BrowserRouter>
   );
 }
-// test
+
 export default App;

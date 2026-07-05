@@ -10,7 +10,14 @@
       "currency": "USD",
       "rating": 4.8,
       "reviewCount": 124,
-      "image": "/assets/products/merino-overcoat-1.jpg",
+      "images": [
+        "/assets/products/merino-wool-overcoat-1.webp",
+        "/assets/products/merino-wool-overcoat-2.webp",
+        "/assets/products/merino-wool-overcoat-3.webp",
+        "/assets/products/merino-wool-overcoat-4.webp",
+        "/assets/products/merino-wool-overcoat-5.webp",
+        "/assets/products/merino-wool-overcoat-6.webp"
+      ],
       "badge": "PREMIUM COLLECTION",
       "colors": [
         { "name": "Onyx Black", "hex": "#1a1a1a", "default": true },
@@ -20,7 +27,8 @@
       ],
       "sizes": ["S", "M", "L", "XL", "XXL"],
       "inStock": true,
-      "section": "featured"
+      "section": "featured",
+      "description": "Crafted from 100% sustainably sourced Italian Merino wool, this overcoat combines timeless tailoring with modern performance. Designed with a structured silhouette and thermal-regulating properties for the discerning professional."
     },
     {
       "id": "slim-fit-wool-trousers",
@@ -32,12 +40,13 @@
       "currency": "USD",
       "rating": 4.6,
       "reviewCount": 87,
-      "image": "/assets/products/wool-trousers.jpg",
+      "images": ["/assets/products/wool-trousers.jpg"],
       "colors": [{ "name": "Navy", "hex": "#1f2a44", "default": true }],
       "sizes": ["28", "30", "32", "34", "36"],
       "inStock": true,
       "relatedTo": ["merino-wool-overcoat"],
-      "section": "completeTheLook"
+      "section": "completeTheLook",
+      "description": "Tailored with a modern slim silhouette, these Italian wool trousers offer a refined drape and effortless sophistication. Perfect for both the office and evening events."
     },
     {
       "id": "essential-oxford-shirt",
@@ -49,13 +58,14 @@
       "currency": "USD",
       "rating": 4.7,
       "reviewCount": 203,
-      "image": "/assets/products/oxford-shirt.jpg",
+      "images": ["/assets/products/oxford-shirt.jpg"],
       "brand": "MERRALL",
       "colors": [{ "name": "White", "hex": "#ffffff", "default": true }],
       "sizes": ["S", "M", "L", "XL"],
       "inStock": true,
       "relatedTo": ["merino-wool-overcoat"],
-      "section": "completeTheLook"
+      "section": "completeTheLook",
+      "description": "A wardrobe cornerstone, this Oxford shirt is crafted from long-staple cotton for a crisp, durable finish. Its classic button-down collar and relaxed fit offer versatile styling for any occasion."
     },
     {
       "id": "italian-leather-chelsea-boots",
@@ -67,12 +77,13 @@
       "currency": "USD",
       "rating": 4.9,
       "reviewCount": 156,
-      "image": "/assets/products/chelsea-boots.jpg",
+      "images": ["/assets/products/chelsea-boots.jpg"],
       "colors": [{ "name": "Black", "hex": "#1a1a1a", "default": true }],
       "sizes": ["7", "8", "9", "10", "11", "12"],
       "inStock": true,
       "relatedTo": ["merino-wool-overcoat"],
-      "section": "completeTheLook"
+      "section": "completeTheLook",
+      "description": "Meticulously handcrafted from premium Italian leather, these Chelsea boots feature an elastic side gusset and robust sole for everyday comfort and enduring style."
     },
     {
       "id": "ribbed-cashmere-scarf",
@@ -84,12 +95,13 @@
       "currency": "USD",
       "rating": 4.8,
       "reviewCount": 64,
-      "image": "/assets/products/cashmere-scarf.jpg",
+      "images": ["/assets/products/cashmere-scarf.jpg"],
       "colors": [{ "name": "Charcoal", "hex": "#3a3a3a", "default": true }],
       "sizes": ["One Size"],
       "inStock": true,
       "relatedTo": ["merino-wool-overcoat"],
-      "section": "completeTheLook"
+      "section": "completeTheLook",
+      "description": "Wrap yourself in unparalleled softness with our ribbed cashmere scarf. Crafted from the finest Grade-A cashmere, it provides luxurious warmth and a timeless aesthetic."
     },
     {
       "id": "aero-leather-backpack",
@@ -101,11 +113,12 @@
       "currency": "USD",
       "rating": 4.7,
       "reviewCount": 98,
-      "image": "/assets/products/leather-backpack.jpg",
+      "images": ["/assets/products/leather-backpack.jpg"],
       "badge": null,
       "isFavorited": true,
       "inStock": true,
-      "section": "trendingNow"
+      "section": "trendingNow",
+      "description": "Blending utilitarian function with refined aesthetic, this full-grain leather backpack features a dedicated laptop sleeve and multiple compartments. The perfect companion for the modern commuter."
     },
     {
       "id": "maritime-chronograph",
@@ -117,11 +130,12 @@
       "currency": "USD",
       "rating": 4.9,
       "reviewCount": 41,
-      "image": "/assets/products/maritime-chronograph.jpg",
+      "images": ["/assets/products/maritime-chronograph.jpg"],
       "badge": "LIMITED",
       "inStock": true,
       "stockCount": 6,
-      "section": "trendingNow"
+      "section": "trendingNow",
+      "description": "A striking timepiece that fuses rugged durability with nautical elegance. The Maritime Chronograph features a precision movement, sapphire crystal, and a rotating bezel."
     },
     {
       "id": "pure-cashmere-crewneck",
@@ -133,10 +147,11 @@
       "currency": "USD",
       "rating": 4.6,
       "reviewCount": 112,
-      "image": "/assets/products/cashmere-crewneck.jpg",
+      "images": ["/assets/products/cashmere-crewneck.jpg"],
       "colors": [{ "name": "Camel", "hex": "#c9a876", "default": true }],
       "inStock": true,
-      "section": "trendingNow"
+      "section": "trendingNow",
+      "description": "Luxuriously lightweight and incredibly soft, this pure cashmere crewneck is a cozy essential. Its timeless design makes it suitable for layering under blazers or wearing solo."
     },
     {
       "id": "amber-glass-orbit-lamp",
@@ -148,193 +163,224 @@
       "currency": "USD",
       "rating": 4.5,
       "reviewCount": 73,
-      "image": "/assets/products/orbit-lamp.jpg",
+      "images": ["/assets/products/orbit-lamp.jpg"],
       "inStock": true,
-      "section": "trendingNow"
+      "section": "trendingNow",
+      "description": "An architectural lighting masterpiece, the Orbit Lamp features hand-blown amber glass suspended within a minimalist brass frame. It casts a warm, inviting glow in any modern space."
     },
     {
       "id": "linen-blend-blazer",
       "name": "Linen Blend Blazer",
       "category": "Apparel",
       "subcategory": "Outerwear",
-      "price": 320.00,
-      "originalPrice": 400.00,
+      "price": 320.0,
+      "originalPrice": 400.0,
       "discountPercent": 20,
       "currency": "USD",
       "rating": 4.6,
       "reviewCount": 58,
       "badge": "DEAL",
-      "inStock": true
+      "inStock": true,
+      "images": [],
+      "description": "Breathable and effortlessly tailored, this linen-blend blazer is the quintessential warm-weather investment piece. Its relaxed structure pairs perfectly with chinos or denim."
     },
     {
       "id": "tapered-chino-pants",
       "name": "Tapered Chino Pants",
       "category": "Apparel",
       "subcategory": "Trousers",
-      "price": 98.00,
+      "price": 98.0,
       "originalPrice": null,
       "currency": "USD",
       "rating": 4.5,
       "reviewCount": 167,
-      "inStock": true
+      "inStock": true,
+      "images": [],
+      "description": "A modern wardrobe staple, these tapered chino pants are crafted from premium stretch cotton twill. They offer a sharp, versatile look perfect for smart-casual settings."
     },
     {
       "id": "pima-cotton-tshirt",
       "name": "Pima Cotton T-Shirt",
       "category": "Apparel",
       "subcategory": "Tops",
-      "price": 65.00,
+      "price": 65.0,
       "originalPrice": null,
       "currency": "USD",
       "rating": 4.8,
       "reviewCount": 312,
-      "inStock": true
+      "inStock": true,
+      "images": [],
+      "description": "The ultimate in everyday comfort, this Pima cotton t-shirt is renowned for its extreme softness and longevity. A flawless foundation for any outfit."
     },
     {
       "id": "wool-vest",
       "name": "Wool Vest",
       "category": "Apparel",
       "subcategory": "Outerwear",
-      "price": 175.00,
+      "price": 175.0,
       "originalPrice": null,
       "currency": "USD",
       "rating": 4.4,
       "reviewCount": 41,
-      "inStock": true
+      "inStock": true,
+      "images": [],
+      "description": "A sophisticated layering piece, this wool vest adds texture and warmth without bulk. Ideal for transitional weather and sharp layering over button-downs."
     },
     {
       "id": "denim-jacket",
       "name": "Selvedge Denim Jacket",
       "category": "Apparel",
       "subcategory": "Outerwear",
-      "price": 210.00,
+      "price": 210.0,
       "originalPrice": null,
       "currency": "USD",
       "rating": 4.7,
       "reviewCount": 89,
       "badge": "BESTSELLER",
-      "inStock": true
+      "inStock": true,
+      "images": [],
+      "description": "A timeless classic, this selvedge denim jacket is built to last a lifetime. Crafted from 14oz Japanese raw denim, it develops a unique patina over time, making each piece truly one-of-a-kind."
     },
     {
       "id": "suede-loafers",
       "name": "Suede Loafers",
       "category": "Footwear",
       "subcategory": "Loafers",
-      "price": 225.00,
+      "price": 225.0,
       "originalPrice": null,
       "currency": "USD",
       "rating": 4.6,
       "reviewCount": 73,
-      "inStock": true
+      "inStock": true,
+      "images": [],
+      "description": "Effortless luxury meets casual elegance. These suede loafers feature an unlined design and classic penny strap, offering a supremely comfortable fit for relaxed yet refined styling."
     },
     {
       "id": "leather-sneakers",
       "name": "Leather Court Sneakers",
       "category": "Footwear",
       "subcategory": "Sneakers",
-      "price": 195.00,
+      "price": 195.0,
       "originalPrice": null,
       "currency": "USD",
       "rating": 4.5,
       "reviewCount": 134,
-      "inStock": true
+      "inStock": true,
+      "images": [],
+      "description": "Elevated street style meets superior comfort. These Italian leather court sneakers feature a sleek, minimalist profile and cushioned footbed, designed for all-day wear."
     },
     {
       "id": "hiking-boots",
       "name": "Trail Hiking Boots",
       "category": "Footwear",
       "subcategory": "Boots",
-      "price": 260.00,
+      "price": 260.0,
       "originalPrice": null,
       "currency": "USD",
       "rating": 4.8,
       "reviewCount": 92,
-      "inStock": true
+      "inStock": true,
+      "images": [],
+      "description": "Built for the rugged path, these Trail Hiking Boots combine weatherproof construction with superior ankle support. Their aggressive traction ensures stability on any terrain."
     },
     {
       "id": "aviator-sunglasses",
       "name": "Aviator Sunglasses",
       "category": "Accessories",
       "subcategory": "Eyewear",
-      "price": 145.00,
+      "price": 145.0,
       "originalPrice": null,
       "currency": "USD",
       "rating": 4.7,
       "reviewCount": 201,
-      "inStock": true
+      "inStock": true,
+      "images": [],
+      "description": "Timeless and aviator-inspired, these sunglasses feature polarized lenses and a lightweight titanium frame. They provide sharp clarity and classic cool."
     },
     {
       "id": "leather-belt",
       "name": "Italian Leather Belt",
       "category": "Accessories",
       "subcategory": "Belts",
-      "price": 85.00,
+      "price": 85.0,
       "originalPrice": null,
       "currency": "USD",
       "rating": 4.6,
       "reviewCount": 156,
-      "inStock": true
+      "inStock": true,
+      "images": [],
+      "description": "Handcrafted from the finest Italian leather, this belt features a sleek matte finish and a solid brass buckle. An essential accessory that elevates any ensemble."
     },
     {
       "id": "silk-tie",
       "name": "Silk Heritage Tie",
       "category": "Accessories",
       "subcategory": "Ties",
-      "price": 110.00,
+      "price": 110.0,
       "originalPrice": null,
       "currency": "USD",
       "rating": 4.4,
       "reviewCount": 47,
-      "inStock": true
+      "inStock": true,
+      "images": [],
+      "description": "Exquisitely woven from pure silk, this heritage tie features a subtle hand-rolled edge and classic jacquard pattern. The epitome of bespoke elegance."
     },
     {
       "id": "leather-gloves",
       "name": "Cashmere-Lined Leather Gloves",
       "category": "Accessories",
       "subcategory": "Gloves",
-      "price": 135.00,
+      "price": 135.0,
       "originalPrice": null,
       "currency": "USD",
       "rating": 4.9,
       "reviewCount": 38,
       "badge": "PREMIUM",
-      "inStock": true
+      "inStock": true,
+      "images": [],
+      "description": "Indulge in ultimate warmth with these cashmere-lined leather gloves. Crafted from supple lambskin, they offer both luxurious comfort and sophisticated urban style."
     },
     {
       "id": "ceramic-vase-set",
       "name": "Artisan Ceramic Vase Set",
       "category": "Home Decor",
       "subcategory": "Vases",
-      "price": 89.00,
+      "price": 89.0,
       "originalPrice": null,
       "currency": "USD",
       "rating": 4.5,
       "reviewCount": 64,
-      "inStock": true
+      "inStock": true,
+      "images": [],
+      "description": "A testament to artisanal craftsmanship, this set of two ceramic vases features a reactive glaze finish. Their organic, sculptural forms make a stunning minimalist statement."
     },
     {
       "id": "marble-coaster-set",
       "name": "Marble Coaster Set",
       "category": "Home Decor",
       "subcategory": "Tableware",
-      "price": 42.00,
+      "price": 42.0,
       "originalPrice": null,
       "currency": "USD",
       "rating": 4.3,
       "reviewCount": 91,
-      "inStock": true
+      "inStock": true,
+      "images": [],
+      "description": "Bring a touch of refined elegance to your tabletop. These hand-polished marble coasters feature natural veining, each piece a unique work of art."
     },
     {
       "id": "minimalist-dress-watch",
       "name": "Minimalist Dress Watch",
       "category": "Watches",
       "subcategory": "Dress",
-      "price": 425.00,
+      "price": 425.0,
       "originalPrice": null,
       "currency": "USD",
       "rating": 4.7,
       "reviewCount": 77,
-      "inStock": true
+      "inStock": true,
+      "images": [],
+      "description": "Understated elegance meets precise Swiss quartz movement. This minimalist dress watch features a clean dial, slim profile, and luxurious leather strap, perfect for formal occasions."
     }
   ],
 

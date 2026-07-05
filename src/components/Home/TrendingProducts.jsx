@@ -1,5 +1,5 @@
-import data from "../../products.json";
-import { getProductImage } from "../utils/productImages";
+import data from "../../../products.json";
+import { getProductImage } from "../../utils/productImages";
 
 export default function TrendingProducts() {
   const products = data.products.filter((p) => p.section === "trendingNow");

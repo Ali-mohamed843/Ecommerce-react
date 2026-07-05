@@ -1,7 +1,7 @@
 import { useState, useMemo } from "react";
 import data from "../../products.json";
-import ShopFilters from "../components/ShopFilters";
-import ProductGrid from "../components/ProductGrid";
+import ShopFilters from "../components/Shop/ShopFilters";
+import ProductGrid from "../components/Shop/ProductGrid";
 
 export default function Shop() {
   const [selectedCategories, setSelectedCategories] = useState([]);

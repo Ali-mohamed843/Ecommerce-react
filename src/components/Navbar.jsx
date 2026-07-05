@@ -23,30 +23,21 @@ export default function Navbar() {
       }`}
     >
       <div className="flex justify-between items-center px-6 py-2 max-w-7xl mx-auto">
-<<<<<<< HEAD
-        <div
+        <Link
+          to="/"
           className="text-2xl font-bold text-primary"
           style={{ fontFamily: "Inter, sans-serif" }}
         >
-=======
-        <Link to="/" className="text-2xl font-bold text-primary" style={{ fontFamily: "Inter, sans-serif" }}>
->>>>>>> main
           LuxeRetail
         </Link>
+
         <nav className="hidden md:flex items-center space-x-6 text-sm font-semibold tracking-wide">
-<<<<<<< HEAD
-          <a
-            className="text-primary font-bold border-b-2 border-primary pb-1"
-            href="#"
-          >
+          <Link to="/" className={linkClass("/")}>
             New Arrivals
-          </a>
-          <a
-            className="text-on-surface-variant hover:text-primary transition-colors duration-200"
-            href="#"
-          >
-            Categories
-          </a>
+          </Link>
+          <Link to="/shop" className={linkClass("/shop")}>
+            Shop
+          </Link>
           <a
             className="text-on-surface-variant hover:text-primary transition-colors duration-200"
             href="#"
@@ -59,13 +50,8 @@ export default function Navbar() {
           >
             About Us
           </a>
-=======
-          <Link to="/" className={linkClass("/")}>New Arrivals</Link>
-          <Link to="/shop" className={linkClass("/shop")}>Shop</Link>
-          <a className="text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Deals</a>
-          <a className="text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">About Us</a>
->>>>>>> main
         </nav>
+
         <div className="flex items-center space-x-4">
           <div className="relative hidden lg:block">
             <input
@@ -77,11 +63,13 @@ export default function Navbar() {
               search
             </span>
           </div>
+
           <button className="flex items-center justify-center p-1 hover:bg-surface-variant rounded-full transition-colors cursor-pointer">
             <span className="material-symbols-outlined text-primary">
               shopping_cart
             </span>
           </button>
+
           <button className="flex items-center justify-center p-1 hover:bg-surface-variant rounded-full transition-colors cursor-pointer">
             <span className="material-symbols-outlined text-primary">
               person

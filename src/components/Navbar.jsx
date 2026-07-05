@@ -44,12 +44,9 @@ export default function Navbar() {
           >
             Deals
           </a>
-          <a
-            className="text-on-surface-variant hover:text-primary transition-colors duration-200"
-            href="#"
-          >
+          <Link to="/about-us" className={linkClass("/about-us")}>
             About Us
-          </a>
+          </Link>
         </nav>
 
         <div className="flex items-center space-x-4">

@@ -7,6 +7,7 @@ import PromotionalBanner from "./components/PromotionalBanner";
 import TrustFeatures from "./components/TrustFeatures";
 import Footer from "./components/Footer";
 import Shop from "./pages/shop";
+import AboutUs from "./pages/AboutUs";
 
 function Home() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
+          <Route path="/about-us" element={<AboutUs />} />
         </Routes>
         <Footer />
       </div>

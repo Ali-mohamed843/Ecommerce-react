@@ -1,11 +1,5 @@
 import data from "../../products.json";
-
-const imageMap = {
-  "aero-leather-backpack": "https://images.unsplash.com/photo-1551677399-f38a96cd1bc7?w=600&q=80",
-  "maritime-chronograph": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=600&q=80",
-  "pure-cashmere-crewneck": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&q=80",
-  "amber-glass-orbit-lamp": "https://images.unsplash.com/photo-1599653675774-d15cee6b7ada?w=600&q=80",
-};
+import { getProductImage } from "../utils/productImages";
 
 export default function TrendingProducts() {
   const products = data.products.filter((p) => p.section === "trendingNow");
@@ -26,7 +20,7 @@ export default function TrendingProducts() {
               <div className="relative aspect-[3/4] overflow-hidden rounded-lg mb-4">
                 <img
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  src={imageMap[product.id]}
+                  src={getProductImage(product)}
                   alt={product.name}
                 />
                 {product.badge ? (

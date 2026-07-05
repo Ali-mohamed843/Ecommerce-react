@@ -1,13 +1,20 @@
 import { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
+  const { pathname } = useLocation();
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const linkClass = (path) =>
+    path === pathname
+      ? "text-primary font-bold border-b-2 border-primary pb-1"
+      : "text-on-surface-variant hover:text-primary transition-colors duration-200";
 
   return (
     <header
@@ -16,12 +23,12 @@ export default function Navbar() {
       }`}
     >
       <div className="flex justify-between items-center px-6 py-2 max-w-7xl mx-auto">
-        <div className="text-2xl font-bold text-primary" style={{ fontFamily: "Inter, sans-serif" }}>
+        <Link to="/" className="text-2xl font-bold text-primary" style={{ fontFamily: "Inter, sans-serif" }}>
           LuxeRetail
-        </div>
+        </Link>
         <nav className="hidden md:flex items-center space-x-6 text-sm font-semibold tracking-wide">
-          <a className="text-primary font-bold border-b-2 border-primary pb-1" href="#">New Arrivals</a>
-          <a className="text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Categories</a>
+          <Link to="/" className={linkClass("/")}>New Arrivals</Link>
+          <Link to="/shop" className={linkClass("/shop")}>Shop</Link>
           <a className="text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Deals</a>
           <a className="text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">About Us</a>
         </nav>

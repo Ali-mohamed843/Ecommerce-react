@@ -28,7 +28,21 @@
       "sizes": ["S", "M", "L", "XL", "XXL"],
       "inStock": true,
       "section": "featured",
-      "description": "Crafted from 100% sustainably sourced Italian Merino wool, this overcoat combines timeless tailoring with modern performance. Designed with a structured silhouette and thermal-regulating properties for the discerning professional."
+      "description": "Crafted from 100% sustainably sourced Italian Merino wool, this overcoat combines timeless tailoring with modern performance. Designed with a structured silhouette and thermal-regulating properties for the discerning professional.",
+      "materialAndCare": {
+        "material": [
+          "100% Sustainably sourced Italian Merino wool.",
+          "Lining: 100% Cupro for breathability and effortless layering.",
+          "Buttons: Genuine buffalo horn."
+        ],
+        "care": [
+          "Dry clean only - do not machine wash or tumble dry.",
+          "Do not bleach.",
+          "Cool iron on reverse side only if necessary.",
+          "Store on a wide, padded hanger to maintain structure.",
+          "Avoid prolonged exposure to direct sunlight to prevent fading."
+        ]
+      }
     },
     {
       "id": "slim-fit-wool-trousers",
@@ -40,13 +54,21 @@
       "currency": "USD",
       "rating": 4.6,
       "reviewCount": 87,
-      "images": ["/assets/products/wool-trousers.jpg"],
+      "images": [
+        "/assets/products/slim-fit-wool-trousers-1.webp",
+        "/assets/products/slim-fit-wool-trousers-2.webp",
+        "/assets/products/slim-fit-wool-trousers-3.webp"
+      ],
+      "badge": null,
       "colors": [{ "name": "Navy", "hex": "#1f2a44", "default": true }],
       "sizes": ["28", "30", "32", "34", "36"],
       "inStock": true,
-      "relatedTo": ["merino-wool-overcoat"],
       "section": "completeTheLook",
-      "description": "Tailored with a modern slim silhouette, these Italian wool trousers offer a refined drape and effortless sophistication. Perfect for both the office and evening events."
+      "description": "Tailored with a modern slim silhouette, these Italian wool trousers offer a refined drape and effortless sophistication.",
+      "materialAndCare": {
+        "material": ["99% Wool, 1% Elastane", "Lining: 100% Viscose"],
+        "care": ["Dry clean only.", "Iron on low heat.", "Do not tumble dry."]
+      }
     },
     {
       "id": "essential-oxford-shirt",
@@ -58,14 +80,24 @@
       "currency": "USD",
       "rating": 4.7,
       "reviewCount": 203,
-      "images": ["/assets/products/oxford-shirt.jpg"],
-      "brand": "MERRALL",
+      "images": [
+        "/assets/products/essential-oxford-shirt-1.webp",
+        "/assets/products/essential-oxford-shirt-2.webp"
+      ],
+      "badge": null,
       "colors": [{ "name": "White", "hex": "#ffffff", "default": true }],
       "sizes": ["S", "M", "L", "XL"],
       "inStock": true,
-      "relatedTo": ["merino-wool-overcoat"],
       "section": "completeTheLook",
-      "description": "A wardrobe cornerstone, this Oxford shirt is crafted from long-staple cotton for a crisp, durable finish. Its classic button-down collar and relaxed fit offer versatile styling for any occasion."
+      "description": "A wardrobe cornerstone, this Oxford shirt is crafted from long-staple cotton for a crisp, durable finish.",
+      "materialAndCare": {
+        "material": ["100% Long-staple Cotton", "Mother-of-pearl buttons"],
+        "care": [
+          "Machine wash cold.",
+          "Tumble dry low.",
+          "Warm iron if needed."
+        ]
+      }
     },
     {
       "id": "italian-leather-chelsea-boots",
@@ -77,13 +109,30 @@
       "currency": "USD",
       "rating": 4.9,
       "reviewCount": 156,
-      "images": ["/assets/products/chelsea-boots.jpg"],
+      "images": [
+        "/assets/products/italian-leather-chelsea-boots-1.webp",
+        "/assets/products/italian-leather-chelsea-boots-2.webp",
+        "/assets/products/italian-leather-chelsea-boots-3.webp",
+        "/assets/products/italian-leather-chelsea-boots-4.webp"
+      ],
+      "badge": null,
       "colors": [{ "name": "Black", "hex": "#1a1a1a", "default": true }],
       "sizes": ["7", "8", "9", "10", "11", "12"],
       "inStock": true,
-      "relatedTo": ["merino-wool-overcoat"],
       "section": "completeTheLook",
-      "description": "Meticulously handcrafted from premium Italian leather, these Chelsea boots feature an elastic side gusset and robust sole for everyday comfort and enduring style."
+      "description": "Meticulously handcrafted from premium Italian leather, these Chelsea boots feature an elastic side gusset and robust sole.",
+      "materialAndCare": {
+        "material": [
+          "100% Italian Leather upper",
+          "Rubber outsole",
+          "Leather lining"
+        ],
+        "care": [
+          "Clean with a soft, damp cloth.",
+          "Apply leather conditioner periodically.",
+          "Avoid soaking in water."
+        ]
+      }
     },
     {
       "id": "ribbed-cashmere-scarf",
@@ -95,13 +144,24 @@
       "currency": "USD",
       "rating": 4.8,
       "reviewCount": 64,
-      "images": ["/assets/products/cashmere-scarf.jpg"],
+      "images": [
+        "/assets/products/ribbed-cashmere-scarf-1.webp",
+        "/assets/products/ribbed-cashmere-scarf-2.webp"
+      ],
+      "badge": null,
       "colors": [{ "name": "Charcoal", "hex": "#3a3a3a", "default": true }],
       "sizes": ["One Size"],
       "inStock": true,
-      "relatedTo": ["merino-wool-overcoat"],
       "section": "completeTheLook",
-      "description": "Wrap yourself in unparalleled softness with our ribbed cashmere scarf. Crafted from the finest Grade-A cashmere, it provides luxurious warmth and a timeless aesthetic."
+      "description": "Wrap yourself in unparalleled softness with our ribbed cashmere scarf, crafted from the finest Grade-A cashmere.",
+      "materialAndCare": {
+        "material": ["100% Grade-A Cashmere"],
+        "care": [
+          "Dry clean only.",
+          "Store folded in a cool, dry place.",
+          "Avoid direct contact with sharp jewelry."
+        ]
+      }
     },
     {
       "id": "aero-leather-backpack",
@@ -113,12 +173,29 @@
       "currency": "USD",
       "rating": 4.7,
       "reviewCount": 98,
-      "images": ["/assets/products/leather-backpack.jpg"],
+      "images": [
+        "/assets/products/aero-leather-backpack-1.webp",
+        "/assets/products/aero-leather-backpack-2.webp",
+        "/assets/products/aero-leather-backpack-3.webp"
+      ],
       "badge": null,
-      "isFavorited": true,
+      "colors": [{ "name": "Espresso", "hex": "#3e2723", "default": true }],
+      "sizes": ["One Size"],
       "inStock": true,
       "section": "trendingNow",
-      "description": "Blending utilitarian function with refined aesthetic, this full-grain leather backpack features a dedicated laptop sleeve and multiple compartments. The perfect companion for the modern commuter."
+      "description": "Blending utilitarian function with refined aesthetic, this full-grain leather backpack features a dedicated laptop sleeve.",
+      "materialAndCare": {
+        "material": [
+          "Full-grain Leather",
+          "Cotton canvas lining",
+          "Solid brass hardware"
+        ],
+        "care": [
+          "Wipe with a dry cloth.",
+          "Condition leather biannually.",
+          "Keep away from extreme heat."
+        ]
+      }
     },
     {
       "id": "maritime-chronograph",
@@ -130,12 +207,31 @@
       "currency": "USD",
       "rating": 4.9,
       "reviewCount": 41,
-      "images": ["/assets/products/maritime-chronograph.jpg"],
+      "images": [
+        "/assets/products/maritime-chronograph-1.webp",
+        "/assets/products/maritime-chronograph-2.webp",
+        "/assets/products/maritime-chronograph-3.webp"
+      ],
       "badge": "LIMITED",
+      "colors": [
+        { "name": "Silver & Black", "hex": "#a0a0a0", "default": true }
+      ],
+      "sizes": ["One Size"],
       "inStock": true,
-      "stockCount": 6,
       "section": "trendingNow",
-      "description": "A striking timepiece that fuses rugged durability with nautical elegance. The Maritime Chronograph features a precision movement, sapphire crystal, and a rotating bezel."
+      "description": "A striking timepiece that fuses rugged durability with nautical elegance. Features precision movement and a sapphire crystal.",
+      "materialAndCare": {
+        "material": [
+          "316L Stainless Steel case",
+          "Sapphire Crystal",
+          "Italian Leather strap"
+        ],
+        "care": [
+          "Do not submerge in water.",
+          "Avoid harsh chemicals.",
+          "Clean with a microfiber cloth."
+        ]
+      }
     },
     {
       "id": "pure-cashmere-crewneck",
@@ -147,11 +243,20 @@
       "currency": "USD",
       "rating": 4.6,
       "reviewCount": 112,
-      "images": ["/assets/products/cashmere-crewneck.jpg"],
+      "images": [
+        "/assets/products/pure-cashmere-crewneck-1.webp",
+        "/assets/products/pure-cashmere-crewneck-2.webp"
+      ],
+      "badge": null,
       "colors": [{ "name": "Camel", "hex": "#c9a876", "default": true }],
+      "sizes": ["S", "M", "L", "XL"],
       "inStock": true,
       "section": "trendingNow",
-      "description": "Luxuriously lightweight and incredibly soft, this pure cashmere crewneck is a cozy essential. Its timeless design makes it suitable for layering under blazers or wearing solo."
+      "description": "Luxuriously lightweight and incredibly soft, this pure cashmere crewneck is a cozy essential for layering.",
+      "materialAndCare": {
+        "material": ["100% Cashmere", "Ribbed cuffs and hem"],
+        "care": ["Hand wash or dry clean.", "Dry flat.", "Do not wring."]
+      }
     },
     {
       "id": "amber-glass-orbit-lamp",
@@ -163,10 +268,25 @@
       "currency": "USD",
       "rating": 4.5,
       "reviewCount": 73,
-      "images": ["/assets/products/orbit-lamp.jpg"],
+      "images": [
+        "/assets/products/amber-glass-orbit-lamp-1.webp",
+        "/assets/products/amber-glass-orbit-lamp-2.webp",
+        "/assets/products/amber-glass-orbit-lamp-3.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "Amber", "hex": "#ffbf00", "default": true }],
+      "sizes": ["One Size"],
       "inStock": true,
       "section": "trendingNow",
-      "description": "An architectural lighting masterpiece, the Orbit Lamp features hand-blown amber glass suspended within a minimalist brass frame. It casts a warm, inviting glow in any modern space."
+      "description": "An architectural lighting masterpiece, the Orbit Lamp features hand-blown amber glass suspended within a minimalist brass frame.",
+      "materialAndCare": {
+        "material": ["Hand-blown Glass", "Brass Framework", "E27 Bulb Socket"],
+        "care": [
+          "Wipe with a soft, dry cloth.",
+          "Do not use harsh abrasives.",
+          "Unplug before cleaning."
+        ]
+      }
     },
     {
       "id": "linen-blend-blazer",
@@ -175,14 +295,28 @@
       "subcategory": "Outerwear",
       "price": 320.0,
       "originalPrice": 400.0,
-      "discountPercent": 20,
       "currency": "USD",
       "rating": 4.6,
       "reviewCount": 58,
+      "images": [
+        "/assets/products/linen-blend-blazer-1.webp",
+        "/assets/products/linen-blend-blazer-2.webp",
+        "/assets/products/linen-blend-blazer-3.webp"
+      ],
       "badge": "DEAL",
+      "colors": [{ "name": "Sand", "hex": "#c2b280", "default": true }],
+      "sizes": ["S", "M", "L", "XL"],
       "inStock": true,
-      "images": [],
-      "description": "Breathable and effortlessly tailored, this linen-blend blazer is the quintessential warm-weather investment piece. Its relaxed structure pairs perfectly with chinos or denim."
+      "section": "newArrivals",
+      "description": "Breathable and effortlessly tailored, this linen-blend blazer is the quintessential warm-weather investment piece.",
+      "materialAndCare": {
+        "material": ["55% Linen, 45% Cotton", "Viscose lining"],
+        "care": [
+          "Dry clean only.",
+          "Iron on medium heat.",
+          "Hang to air out after wear."
+        ]
+      }
     },
     {
       "id": "tapered-chino-pants",
@@ -194,9 +328,25 @@
       "currency": "USD",
       "rating": 4.5,
       "reviewCount": 167,
+      "images": [
+        "/assets/products/tapered-chino-pants-1.webp",
+        "/assets/products/tapered-chino-pants-2.webp",
+        "/assets/products/tapered-chino-pants-3.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "Khaki", "hex": "#c3b091", "default": true }],
+      "sizes": ["30", "32", "34", "36", "38"],
       "inStock": true,
-      "images": [],
-      "description": "A modern wardrobe staple, these tapered chino pants are crafted from premium stretch cotton twill. They offer a sharp, versatile look perfect for smart-casual settings."
+      "section": "newArrivals",
+      "description": "A modern wardrobe staple, these tapered chino pants are crafted from premium stretch cotton twill for a sharp, versatile look.",
+      "materialAndCare": {
+        "material": ["98% Cotton, 2% Elastane"],
+        "care": [
+          "Machine wash cold.",
+          "Tumble dry low.",
+          "Warm iron if needed."
+        ]
+      }
     },
     {
       "id": "pima-cotton-tshirt",
@@ -208,9 +358,20 @@
       "currency": "USD",
       "rating": 4.8,
       "reviewCount": 312,
+      "images": [
+        "/assets/products/pima-cotton-tshirt-1.webp",
+        "/assets/products/pima-cotton-tshirt-2.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "White", "hex": "#ffffff", "default": true }],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
       "inStock": true,
-      "images": [],
-      "description": "The ultimate in everyday comfort, this Pima cotton t-shirt is renowned for its extreme softness and longevity. A flawless foundation for any outfit."
+      "section": "newArrivals",
+      "description": "The ultimate in everyday comfort, this Pima cotton t-shirt is renowned for its extreme softness and longevity.",
+      "materialAndCare": {
+        "material": ["100% Pima Cotton"],
+        "care": ["Machine wash cold.", "Do not bleach.", "Tumble dry low."]
+      }
     },
     {
       "id": "wool-vest",
@@ -222,12 +383,23 @@
       "currency": "USD",
       "rating": 4.4,
       "reviewCount": 41,
+      "images": [
+        "/assets/products/wool-vest-1.webp",
+        "/assets/products/wool-vest-2.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "Charcoal", "hex": "#36454f", "default": true }],
+      "sizes": ["S", "M", "L", "XL"],
       "inStock": true,
-      "images": [],
-      "description": "A sophisticated layering piece, this wool vest adds texture and warmth without bulk. Ideal for transitional weather and sharp layering over button-downs."
+      "section": "newArrivals",
+      "description": "A sophisticated layering piece, this wool vest adds texture and warmth without bulk, ideal for transitional weather.",
+      "materialAndCare": {
+        "material": ["80% Wool, 20% Nylon", "100% Polyester lining"],
+        "care": ["Dry clean only.", "Cool iron.", "Store on a hanger."]
+      }
     },
     {
-      "id": "denim-jacket",
+      "id": "selvedge-denim-jacket",
       "name": "Selvedge Denim Jacket",
       "category": "Apparel",
       "subcategory": "Outerwear",
@@ -236,10 +408,25 @@
       "currency": "USD",
       "rating": 4.7,
       "reviewCount": 89,
+      "images": [
+        "/assets/products/selvedge-denim-jacket-1.webp",
+        "/assets/products/selvedge-denim-jacket-2.webp",
+        "/assets/products/selvedge-denim-jacket-3.webp"
+      ],
       "badge": "BESTSELLER",
+      "colors": [{ "name": "Raw Indigo", "hex": "#2c3e50", "default": true }],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
       "inStock": true,
-      "images": [],
-      "description": "A timeless classic, this selvedge denim jacket is built to last a lifetime. Crafted from 14oz Japanese raw denim, it develops a unique patina over time, making each piece truly one-of-a-kind."
+      "section": "trendingNow",
+      "description": "A timeless classic, this selvedge denim jacket is built to last a lifetime, crafted from 14oz Japanese raw denim.",
+      "materialAndCare": {
+        "material": ["100% 14oz Japanese Raw Denim", "Brass Buttons"],
+        "care": [
+          "Wash infrequently inside out.",
+          "Cold wash.",
+          "Dry flat to preserve fit."
+        ]
+      }
     },
     {
       "id": "suede-loafers",
@@ -251,12 +438,28 @@
       "currency": "USD",
       "rating": 4.6,
       "reviewCount": 73,
+      "images": [
+        "/assets/products/suede-loafers-1.webp",
+        "/assets/products/suede-loafers-2.webp",
+        "/assets/products/suede-loafers-3.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "Tan", "hex": "#d2b48c", "default": true }],
+      "sizes": ["8", "9", "10", "11", "12"],
       "inStock": true,
-      "images": [],
-      "description": "Effortless luxury meets casual elegance. These suede loafers feature an unlined design and classic penny strap, offering a supremely comfortable fit for relaxed yet refined styling."
+      "section": "trendingNow",
+      "description": "Effortless luxury meets casual elegance. These suede loafers feature an unlined design and classic penny strap.",
+      "materialAndCare": {
+        "material": ["Calf Suede upper", "Leather lining", "Rubber outsole"],
+        "care": [
+          "Brush with a suede brush.",
+          "Use suede protector spray.",
+          "Avoid water exposure."
+        ]
+      }
     },
     {
-      "id": "leather-sneakers",
+      "id": "leather-court-sneakers",
       "name": "Leather Court Sneakers",
       "category": "Footwear",
       "subcategory": "Sneakers",
@@ -265,12 +468,29 @@
       "currency": "USD",
       "rating": 4.5,
       "reviewCount": 134,
+      "images": [
+        "/assets/products/leather-court-sneakers-1.webp",
+        "/assets/products/leather-court-sneakers-2.webp",
+        "/assets/products/leather-court-sneakers-3.webp",
+        "/assets/products/leather-court-sneakers-4.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "White", "hex": "#ffffff", "default": true }],
+      "sizes": ["7", "8", "9", "10", "11", "12"],
       "inStock": true,
-      "images": [],
-      "description": "Elevated street style meets superior comfort. These Italian leather court sneakers feature a sleek, minimalist profile and cushioned footbed, designed for all-day wear."
+      "section": "trendingNow",
+      "description": "Elevated street style meets superior comfort. These Italian leather court sneakers feature a sleek, minimalist profile.",
+      "materialAndCare": {
+        "material": ["Full-grain Leather", "Rubber cupsole", "Textile lining"],
+        "care": [
+          "Wipe clean with a damp cloth.",
+          "Remove stains with a leather cleaner.",
+          "Air dry."
+        ]
+      }
     },
     {
-      "id": "hiking-boots",
+      "id": "trail-hiking-boots",
       "name": "Trail Hiking Boots",
       "category": "Footwear",
       "subcategory": "Boots",
@@ -279,9 +499,30 @@
       "currency": "USD",
       "rating": 4.8,
       "reviewCount": 92,
+      "images": [
+        "/assets/products/trail-hiking-boots-1.webp",
+        "/assets/products/trail-hiking-boots-2.webp",
+        "/assets/products/trail-hiking-boots-3.webp",
+        "/assets/products/trail-hiking-boots-4.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "Brown", "hex": "#8b4513", "default": true }],
+      "sizes": ["8", "9", "10", "11", "12", "13"],
       "inStock": true,
-      "images": [],
-      "description": "Built for the rugged path, these Trail Hiking Boots combine weatherproof construction with superior ankle support. Their aggressive traction ensures stability on any terrain."
+      "section": "trendingNow",
+      "description": "Built for the rugged path, these Trail Hiking Boots combine weatherproof construction with superior ankle support.",
+      "materialAndCare": {
+        "material": [
+          "Waterproof Leather",
+          "Gore-Tex lining",
+          "Aggressive rubber tread"
+        ],
+        "care": [
+          "Clean with a stiff brush.",
+          "Apply waterproofing wax.",
+          "Dry naturally away from direct heat."
+        ]
+      }
     },
     {
       "id": "aviator-sunglasses",
@@ -293,12 +534,27 @@
       "currency": "USD",
       "rating": 4.7,
       "reviewCount": 201,
+      "images": [
+        "/assets/products/aviator-sunglasses-1.webp",
+        "/assets/products/aviator-sunglasses-2.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "Gold", "hex": "#d4af37", "default": true }],
+      "sizes": ["One Size"],
       "inStock": true,
-      "images": [],
-      "description": "Timeless and aviator-inspired, these sunglasses feature polarized lenses and a lightweight titanium frame. They provide sharp clarity and classic cool."
+      "section": "newArrivals",
+      "description": "Timeless and aviator-inspired, these sunglasses feature polarized lenses and a lightweight titanium frame.",
+      "materialAndCare": {
+        "material": ["Titanium frame", "Polarized CR-39 lenses"],
+        "care": [
+          "Clean with a microfiber cloth.",
+          "Do not use paper towels.",
+          "Store in provided hard case."
+        ]
+      }
     },
     {
-      "id": "leather-belt",
+      "id": "italian-leather-belt",
       "name": "Italian Leather Belt",
       "category": "Accessories",
       "subcategory": "Belts",
@@ -307,12 +563,27 @@
       "currency": "USD",
       "rating": 4.6,
       "reviewCount": 156,
+      "images": [
+        "/assets/products/italian-leather-belt-1.webp",
+        "/assets/products/italian-leather-belt-2.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "Dark Brown", "hex": "#5c4033", "default": true }],
+      "sizes": ["32", "34", "36", "38", "40", "42"],
       "inStock": true,
-      "images": [],
-      "description": "Handcrafted from the finest Italian leather, this belt features a sleek matte finish and a solid brass buckle. An essential accessory that elevates any ensemble."
+      "section": "newArrivals",
+      "description": "Handcrafted from the finest Italian leather, this belt features a sleek matte finish and a solid brass buckle.",
+      "materialAndCare": {
+        "material": ["Full-grain Leather", "Solid Brass Buckle"],
+        "care": [
+          "Wipe with a soft cloth.",
+          "Apply leather polish for sheen.",
+          "Do not over-tighten."
+        ]
+      }
     },
     {
-      "id": "silk-tie",
+      "id": "silk-heritage-tie",
       "name": "Silk Heritage Tie",
       "category": "Accessories",
       "subcategory": "Ties",
@@ -321,12 +592,27 @@
       "currency": "USD",
       "rating": 4.4,
       "reviewCount": 47,
+      "images": [
+        "/assets/products/silk-heritage-tie-1.webp",
+        "/assets/products/silk-heritage-tie-2.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "Burgundy", "hex": "#800020", "default": true }],
+      "sizes": ["One Size"],
       "inStock": true,
-      "images": [],
-      "description": "Exquisitely woven from pure silk, this heritage tie features a subtle hand-rolled edge and classic jacquard pattern. The epitome of bespoke elegance."
+      "section": "newArrivals",
+      "description": "Exquisitely woven from pure silk, this heritage tie features a subtle hand-rolled edge and classic jacquard pattern.",
+      "materialAndCare": {
+        "material": ["100% Pure Silk"],
+        "care": [
+          "Dry clean only.",
+          "Loosen knot completely after wear.",
+          "Roll to store."
+        ]
+      }
     },
     {
-      "id": "leather-gloves",
+      "id": "cashmere-leather-gloves",
       "name": "Cashmere-Lined Leather Gloves",
       "category": "Accessories",
       "subcategory": "Gloves",
@@ -335,13 +621,27 @@
       "currency": "USD",
       "rating": 4.9,
       "reviewCount": 38,
+      "images": [
+        "/assets/products/cashmere-leather-gloves-1.webp",
+        "/assets/products/cashmere-leather-gloves-2.webp"
+      ],
       "badge": "PREMIUM",
+      "colors": [{ "name": "Black", "hex": "#1a1a1a", "default": true }],
+      "sizes": ["S", "M", "L", "XL"],
       "inStock": true,
-      "images": [],
-      "description": "Indulge in ultimate warmth with these cashmere-lined leather gloves. Crafted from supple lambskin, they offer both luxurious comfort and sophisticated urban style."
+      "section": "featured",
+      "description": "Indulge in ultimate warmth with these cashmere-lined leather gloves, crafted from supple lambskin.",
+      "materialAndCare": {
+        "material": ["Lambskin Leather", "100% Cashmere lining"],
+        "care": [
+          "Gently wipe with a damp cloth.",
+          "Let dry naturally.",
+          "Do not machine wash."
+        ]
+      }
     },
     {
-      "id": "ceramic-vase-set",
+      "id": "artisan-ceramic-vase-set",
       "name": "Artisan Ceramic Vase Set",
       "category": "Home Decor",
       "subcategory": "Vases",
@@ -350,9 +650,25 @@
       "currency": "USD",
       "rating": 4.5,
       "reviewCount": 64,
+      "images": [
+        "/assets/products/artisan-ceramic-vase-set-1.webp",
+        "/assets/products/artisan-ceramic-vase-set-2.webp",
+        "/assets/products/artisan-ceramic-vase-set-3.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "White", "hex": "#fdf5e6", "default": true }],
+      "sizes": ["One Size"],
       "inStock": true,
-      "images": [],
-      "description": "A testament to artisanal craftsmanship, this set of two ceramic vases features a reactive glaze finish. Their organic, sculptural forms make a stunning minimalist statement."
+      "section": "trendingNow",
+      "description": "A testament to artisanal craftsmanship, this set of two ceramic vases features a reactive glaze finish and organic shapes.",
+      "materialAndCare": {
+        "material": ["High-Fire Ceramic", "Reactive Glaze"],
+        "care": [
+          "Dust with a soft cloth.",
+          "Hand wash with mild soap if necessary.",
+          "Do not put in dishwasher."
+        ]
+      }
     },
     {
       "id": "marble-coaster-set",
@@ -364,9 +680,24 @@
       "currency": "USD",
       "rating": 4.3,
       "reviewCount": 91,
+      "images": [
+        "/assets/products/marble-coaster-set-1.webp",
+        "/assets/products/marble-coaster-set-2.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "White & Grey", "hex": "#f0f0f0", "default": true }],
+      "sizes": ["One Size"],
       "inStock": true,
-      "images": [],
-      "description": "Bring a touch of refined elegance to your tabletop. These hand-polished marble coasters feature natural veining, each piece a unique work of art."
+      "section": "trendingNow",
+      "description": "Bring a touch of refined elegance to your tabletop. These hand-polished marble coasters feature natural veining.",
+      "materialAndCare": {
+        "material": ["100% Natural Marble", "Cork backing"],
+        "care": [
+          "Wipe clean with a damp cloth.",
+          "Avoid acidic spills.",
+          "Dry immediately."
+        ]
+      }
     },
     {
       "id": "minimalist-dress-watch",
@@ -378,9 +709,778 @@
       "currency": "USD",
       "rating": 4.7,
       "reviewCount": 77,
+      "images": [
+        "/assets/products/minimalist-dress-watch-1.webp",
+        "/assets/products/minimalist-dress-watch-2.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "Silver", "hex": "#c0c0c0", "default": true }],
+      "sizes": ["One Size"],
       "inStock": true,
-      "images": [],
-      "description": "Understated elegance meets precise Swiss quartz movement. This minimalist dress watch features a clean dial, slim profile, and luxurious leather strap, perfect for formal occasions."
+      "section": "trendingNow",
+      "description": "Understated elegance meets precise Swiss quartz movement. This minimalist dress watch features a clean dial and slim profile.",
+      "materialAndCare": {
+        "material": [
+          "Stainless Steel case",
+          "Sapphire Crystal",
+          "Black Leather strap"
+        ],
+        "care": [
+          "Wipe with a soft cloth.",
+          "Avoid submersion.",
+          "Keep away from magnetic fields."
+        ]
+      }
+    },
+    {
+      "id": "wool-blend-beanie",
+      "name": "Wool-Blend Beanie Hat",
+      "category": "Accessories",
+      "subcategory": "Hats",
+      "price": 55.0,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.5,
+      "reviewCount": 112,
+      "images": [
+        "/assets/products/wool-blend-beanie-1.webp",
+        "/assets/products/wool-blend-beanie-2.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "Heather Grey", "hex": "#a9a9a9", "default": true }],
+      "sizes": ["One Size"],
+      "inStock": true,
+      "section": "newArrivals",
+      "description": "A cozy, classic knit beanie made from a premium wool blend to keep you warm during the cold season.",
+      "materialAndCare": {
+        "material": ["70% Wool, 30% Acrylic"],
+        "care": ["Hand wash cold.", "Reshape and dry flat.", "Do not bleach."]
+      }
+    },
+    {
+      "id": "canvas-weekender-duffel",
+      "name": "Canvas Weekender Duffel",
+      "category": "Accessories",
+      "subcategory": "Bags",
+      "price": 285.0,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.8,
+      "reviewCount": 44,
+      "images": [
+        "/assets/products/canvas-weekender-duffel-1.webp",
+        "/assets/products/canvas-weekender-duffel-2.webp",
+        "/assets/products/canvas-weekender-duffel-3.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "Olive Green", "hex": "#556b2f", "default": true }],
+      "sizes": ["One Size"],
+      "inStock": true,
+      "section": "trendingNow",
+      "description": "Rugged yet sophisticated, this heavy-duty canvas duffel is the ultimate travel companion with leather accents.",
+      "materialAndCare": {
+        "material": [
+          "Waxed Canvas",
+          "Full-grain leather trim",
+          "Brass hardware"
+        ],
+        "care": [
+          "Spot clean with a damp cloth.",
+          "Re-wax canvas occasionally.",
+          "Air dry away from heat."
+        ]
+      }
+    },
+    {
+      "id": "leather-wallet",
+      "name": "Everyday Carry Leather Wallet",
+      "category": "Accessories",
+      "subcategory": "Wallets",
+      "price": 75.0,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.6,
+      "reviewCount": 215,
+      "images": [
+        "/assets/products/leather-wallet-1.webp",
+        "/assets/products/leather-wallet-2.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "Mahogany", "hex": "#420d09", "default": true }],
+      "sizes": ["One Size"],
+      "inStock": true,
+      "section": "featured",
+      "description": "A classic, slim bifold wallet handcrafted from vegetable-tanned leather. Perfect for carrying daily essentials.",
+      "materialAndCare": {
+        "material": ["Vegetable-tanned leather", "Cotton lining"],
+        "care": [
+          "Clean with leather conditioner.",
+          "Keep away from moisture.",
+          "Use a soft brush."
+        ]
+      }
+    },
+    {
+      "id": "classic-leather-oxfords",
+      "name": "Classic Leather Oxfords",
+      "category": "Footwear",
+      "subcategory": "Oxfords",
+      "price": 315.0,
+      "originalPrice": 380.0,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviewCount": 66,
+      "images": [
+        "/assets/products/classic-leather-oxfords-1.webp",
+        "/assets/products/classic-leather-oxfords-2.webp",
+        "/assets/products/classic-leather-oxfords-3.webp",
+        "/assets/products/classic-leather-oxfords-4.webp"
+      ],
+      "badge": "DEAL",
+      "colors": [{ "name": "Cognac", "hex": "#8b5a2b", "default": true }],
+      "sizes": ["8", "9", "10", "11", "12"],
+      "inStock": true,
+      "section": "newArrivals",
+      "description": "Timeless dress shoes with a polished finish, featuring Goodyear-welt construction and a comfortable leather sole.",
+      "materialAndCare": {
+        "material": [
+          "Calfskin leather upper",
+          "Leather sole",
+          "Goodyear Welt construction"
+        ],
+        "care": [
+          "Apply shoe polish regularly.",
+          "Use wooden shoe trees.",
+          "Avoid wearing in rain."
+        ]
+      }
+    },
+    {
+      "id": "performance-running-sneakers",
+      "name": "Performance Running Sneakers",
+      "category": "Footwear",
+      "subcategory": "Sneakers",
+      "price": 145.0,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.8,
+      "reviewCount": 412,
+      "images": [
+        "/assets/products/performance-running-sneakers-1.webp",
+        "/assets/products/performance-running-sneakers-2.webp",
+        "/assets/products/performance-running-sneakers-3.webp",
+        "/assets/products/performance-running-sneakers-4.webp"
+      ],
+      "badge": null,
+      "colors": [
+        { "name": "Black & White", "hex": "#000000", "default": true }
+      ],
+      "sizes": ["7", "8", "9", "10", "11", "12"],
+      "inStock": true,
+      "section": "trendingNow",
+      "description": "Engineered for peak performance, these sneakers feature breathable mesh and ultra-responsive cushioning.",
+      "materialAndCare": {
+        "material": ["Engineered Mesh", "EVA Foam midsole", "Rubber outsole"],
+        "care": [
+          "Machine washable on gentle cycle.",
+          "Air dry.",
+          "Do not use bleach."
+        ]
+      }
+    },
+    {
+      "id": "minimalist-tote-bag",
+      "name": "Minimalist Tote Bag",
+      "category": "Accessories",
+      "subcategory": "Bags",
+      "price": 65.0,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.4,
+      "reviewCount": 88,
+      "images": [
+        "/assets/products/minimalist-tote-bag-1.webp",
+        "/assets/products/minimalist-tote-bag-2.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "Natural", "hex": "#f5f5dc", "default": true }],
+      "sizes": ["One Size"],
+      "inStock": true,
+      "section": "newArrivals",
+      "description": "A sustainable, unisex tote bag woven from organic cotton. Stylish, spacious, and incredibly durable.",
+      "materialAndCare": {
+        "material": ["100% Organic Cotton", "Leather straps"],
+        "care": [
+          "Hand wash cold.",
+          "Line dry.",
+          "Iron on low heat if necessary."
+        ]
+      }
+    },
+    {
+      "id": "geometric-sculpture-candle",
+      "name": "Geometric Sculpture Candle",
+      "category": "Home Decor",
+      "subcategory": "Candles",
+      "price": 48.0,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.5,
+      "reviewCount": 104,
+      "images": [
+        "/assets/products/geometric-sculpture-candle-1.webp",
+        "/assets/products/geometric-sculpture-candle-2.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "Sage Green", "hex": "#8fbc8f", "default": true }],
+      "sizes": ["One Size"],
+      "inStock": true,
+      "section": "trendingNow",
+      "description": "A contemporary take on the classic candle, this geometric soy wax candle doubles as a stunning sculpture.",
+      "materialAndCare": {
+        "material": ["100% Soy Wax", "Cotton Wick", "Fragrance oil"],
+        "care": [
+          "Trim wick to 1/4 inch before each burn.",
+          "Do not burn for more than 4 hours.",
+          "Place on a heat-resistant surface."
+        ]
+      }
+    },
+    {
+      "id": "brass-desk-lamp",
+      "name": "Brass Desk Lamp",
+      "category": "Home Decor",
+      "subcategory": "Lighting",
+      "price": 155.0,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviewCount": 57,
+      "images": [
+        "/assets/products/brass-desk-lamp-1.webp",
+        "/assets/products/brass-desk-lamp-2.webp",
+        "/assets/products/brass-desk-lamp-3.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "Brass", "hex": "#b5a642", "default": true }],
+      "sizes": ["One Size"],
+      "inStock": true,
+      "section": "newArrivals",
+      "description": "An iconic retro-industrial desk lamp made from polished brass, perfect for illuminating your workspace.",
+      "materialAndCare": {
+        "material": ["Polished Brass", "Steel base", "Fabric cord"],
+        "care": [
+          "Wipe with a soft, dry cloth.",
+          "Use a brass cleaner to restore shine.",
+          "Avoid harsh abrasives."
+        ]
+      }
+    },
+    {
+      "id": "herringbone-wool-blazer",
+      "name": "Herringbone Wool Blazer",
+      "category": "Apparel",
+      "subcategory": "Outerwear",
+      "price": 445.0,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.8,
+      "reviewCount": 32,
+      "images": [
+        "/assets/products/herringbone-wool-blazer-1.webp",
+        "/assets/products/herringbone-wool-blazer-2.webp",
+        "/assets/products/herringbone-wool-blazer-3.webp"
+      ],
+      "badge": "LIMITED",
+      "colors": [{ "name": "Grey", "hex": "#808080", "default": true }],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "inStock": true,
+      "section": "featured",
+      "description": "A refined herringbone blazer tailored from premium wool, offering a classic British aesthetic for the modern gentleman.",
+      "materialAndCare": {
+        "material": ["100% Fine Wool", "Cupro Lining"],
+        "care": [
+          "Dry clean only.",
+          "Steam to release wrinkles.",
+          "Store in a garment bag."
+        ]
+      }
+    },
+    {
+      "id": "linen-shorts",
+      "name": "Linen Shorts",
+      "category": "Apparel",
+      "subcategory": "Shorts",
+      "price": 85.0,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.3,
+      "reviewCount": 132,
+      "images": [
+        "/assets/products/linen-shorts-1.webp",
+        "/assets/products/linen-shorts-2.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "Sky Blue", "hex": "#87ceeb", "default": true }],
+      "sizes": ["30", "32", "34", "36"],
+      "inStock": true,
+      "section": "newArrivals",
+      "description": "Stay cool and stylish in these breathable linen shorts. Perfect for warm weather and effortless summer styling.",
+      "materialAndCare": {
+        "material": ["100% Linen"],
+        "care": [
+          "Machine wash cold.",
+          "Tumble dry low.",
+          "Warm iron if necessary."
+        ]
+      }
+    },
+    {
+      "id": "half-zip-merino-pullover",
+      "name": "Half-Zip Merino Pullover",
+      "category": "Apparel",
+      "subcategory": "Knitwear",
+      "price": 145.0,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.6,
+      "reviewCount": 78,
+      "images": [
+        "/assets/products/half-zip-merino-pullover-1.webp",
+        "/assets/products/half-zip-merino-pullover-2.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "Navy", "hex": "#000080", "default": true }],
+      "sizes": ["S", "M", "L", "XL"],
+      "inStock": true,
+      "section": "trendingNow",
+      "description": "A versatile layering piece made from extra-fine Merino wool, featuring a functional half-zip for adjustable ventilation.",
+      "materialAndCare": {
+        "material": ["100% Extrafine Merino Wool", "YKK Zipper"],
+        "care": ["Hand wash or dry clean.", "Do not tumble dry.", "Dry flat."]
+      }
+    },
+    {
+      "id": "polarized-sport-sunglasses",
+      "name": "Polarized Sport Sunglasses",
+      "category": "Accessories",
+      "subcategory": "Eyewear",
+      "price": 95.0,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviewCount": 85,
+      "images": [
+        "/assets/products/polarized-sport-sunglasses-1.webp",
+        "/assets/products/polarized-sport-sunglasses-2.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "Matte Black", "hex": "#0f0f0f", "default": true }],
+      "sizes": ["One Size"],
+      "inStock": true,
+      "section": "newArrivals",
+      "description": "High-performance wrap-around sunglasses with advanced polarization to reduce glare during outdoor sports.",
+      "materialAndCare": {
+        "material": ["Grillamid TR90 frame", "TAC Polarized Lenses"],
+        "care": [
+          "Rinse with cold water after use.",
+          "Dry with a microfiber cloth.",
+          "Store in soft pouch."
+        ]
+      }
+    },
+    {
+      "id": "suede-chelsea-boots",
+      "name": "Suede Chelsea Boots",
+      "category": "Footwear",
+      "subcategory": "Boots",
+      "price": 280.0,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.6,
+      "reviewCount": 69,
+      "images": [
+        "/assets/products/suede-chelsea-boots-1.webp",
+        "/assets/products/suede-chelsea-boots-2.webp",
+        "/assets/products/suede-chelsea-boots-3.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "Dark Brown", "hex": "#4e342e", "default": true }],
+      "sizes": ["8", "9", "10", "11", "12"],
+      "inStock": true,
+      "section": "featured",
+      "description": "The ultimate boot for rainy and dry seasons alike, featuring water-resistant suede and a classic elastic gusset.",
+      "materialAndCare": {
+        "material": ["Water-Resistant Suede", "Leather Lining", "Rubber Sole"],
+        "care": [
+          "Treat with suede protector.",
+          "Brush with a suede brush.",
+          "Use a crepe rubber brush to clean."
+        ]
+      }
+    },
+    {
+      "id": "knit-silk-tie",
+      "name": "Knit Silk Tie",
+      "category": "Accessories",
+      "subcategory": "Ties",
+      "price": 95.0,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.5,
+      "reviewCount": 33,
+      "images": [
+        "/assets/products/knit-silk-tie-1.webp",
+        "/assets/products/knit-silk-tie-2.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "Forest Green", "hex": "#228b22", "default": true }],
+      "sizes": ["One Size"],
+      "inStock": true,
+      "section": "newArrivals",
+      "description": "Add a touch of texture to your suiting with this finely knitted silk tie, offering a uniquely casual yet sophisticated look.",
+      "materialAndCare": {
+        "material": ["100% Silk Knit"],
+        "care": ["Dry clean only.", "Store rolled.", "Do not iron directly."]
+      }
+    },
+    {
+      "id": "monogrammed-leather-portfolio",
+      "name": "Monogrammed Leather Portfolio",
+      "category": "Accessories",
+      "subcategory": "Office",
+      "price": 210.0,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.9,
+      "reviewCount": 28,
+      "images": [
+        "/assets/products/monogrammed-leather-portfolio-1.webp",
+        "/assets/products/monogrammed-leather-portfolio-2.webp"
+      ],
+      "badge": "PREMIUM",
+      "colors": [{ "name": "Espresso", "hex": "#3c2f2f", "default": true }],
+      "sizes": ["One Size"],
+      "inStock": true,
+      "section": "featured",
+      "description": "An executive portfolio handcrafted from top-grain leather, complete with a personalized monogram for a bespoke touch.",
+      "materialAndCare": {
+        "material": ["Top-grain Leather", "Cotton lining"],
+        "care": [
+          "Clean with a leather cleaner.",
+          "Use a soft cloth.",
+          "Avoid sun exposure."
+        ]
+      }
+    },
+    {
+      "id": "merino-wool-socks-pack",
+      "name": "Merino Wool Socks (Pack of 3)",
+      "category": "Apparel",
+      "subcategory": "Socks",
+      "price": 45.0,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.8,
+      "reviewCount": 456,
+      "images": [
+        "/assets/products/merino-wool-socks-pack-1.webp",
+        "/assets/products/merino-wool-socks-pack-2.webp"
+      ],
+      "badge": "BESTSELLER",
+      "colors": [{ "name": "Assorted", "hex": "#696969", "default": true }],
+      "sizes": ["S/M", "L/XL"],
+      "inStock": true,
+      "section": "trendingNow",
+      "description": "Superior comfort and thermal regulation with our three-pack of merino wool socks. The ultimate daily essential.",
+      "materialAndCare": {
+        "material": ["80% Merino Wool, 20% Polyamide"],
+        "care": ["Machine wash cold.", "Do not tumble dry.", "Wash inside out."]
+      }
+    },
+    {
+      "id": "navy-chinos",
+      "name": "Navy Chinos",
+      "category": "Apparel",
+      "subcategory": "Trousers",
+      "price": 98.0,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.5,
+      "reviewCount": 124,
+      "images": [
+        "/assets/products/navy-chinos-1.webp",
+        "/assets/products/navy-chinos-2.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "Navy", "hex": "#000080", "default": true }],
+      "sizes": ["30", "32", "34", "36", "38"],
+      "inStock": true,
+      "section": "newArrivals",
+      "description": "A versatile alternative to denim, these slim-fit navy chinos are perfect for dressing up or down.",
+      "materialAndCare": {
+        "material": ["98% Cotton, 2% Spandex"],
+        "care": ["Machine wash cold.", "Tumble dry low.", "Iron warm."]
+      }
+    },
+    {
+      "id": "single-breasted-suit-jacket",
+      "name": "Single-Breasted Suit Jacket",
+      "category": "Apparel",
+      "subcategory": "Outerwear",
+      "price": 550.0,
+      "originalPrice": 720.0,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviewCount": 19,
+      "images": [
+        "/assets/products/single-breasted-suit-jacket-1.webp",
+        "/assets/products/single-breasted-suit-jacket-2.webp",
+        "/assets/products/single-breasted-suit-jacket-3.webp"
+      ],
+      "badge": "DEAL",
+      "colors": [{ "name": "Charcoal", "hex": "#36454f", "default": true }],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "inStock": true,
+      "section": "featured",
+      "description": "A masterfully tailored single-breasted jacket made from high-twist worsted wool. Elevates any formal wardrobe.",
+      "materialAndCare": {
+        "material": ["Worsted Wool", "Cupro lining"],
+        "care": [
+          "Professional dry clean only.",
+          "Hang on a wide hanger.",
+          "Steam as needed."
+        ]
+      }
+    },
+    {
+      "id": "heavyweight-cotton-hoodie",
+      "name": "Heavyweight Cotton Hoodie",
+      "category": "Apparel",
+      "subcategory": "Hoodies",
+      "price": 110.0,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.8,
+      "reviewCount": 211,
+      "images": [
+        "/assets/products/heavyweight-cotton-hoodie-1.webp",
+        "/assets/products/heavyweight-cotton-hoodie-2.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "Heather Grey", "hex": "#b0b0b0", "default": true }],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "inStock": true,
+      "section": "trendingNow",
+      "description": "Built for cold weather, this heavyweight hoodie features a brushed interior for ultimate warmth and a sturdy fit.",
+      "materialAndCare": {
+        "material": ["100% Heavyweight Cotton", "Kangaroo pocket"],
+        "care": [
+          "Machine wash cold.",
+          "Tumble dry medium.",
+          "Turn inside out to wash."
+        ]
+      }
+    },
+    {
+      "id": "ankle-boots-shearling",
+      "name": "Ankle Boots with Shearling",
+      "category": "Footwear",
+      "subcategory": "Boots",
+      "price": 310.0,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.8,
+      "reviewCount": 47,
+      "images": [
+        "/assets/products/ankle-boots-shearling-1.webp",
+        "/assets/products/ankle-boots-shearling-2.webp",
+        "/assets/products/ankle-boots-shearling-3.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "Chestnut", "hex": "#954535", "default": true }],
+      "sizes": ["7", "8", "9", "10", "11"],
+      "inStock": true,
+      "section": "newArrivals",
+      "description": "Stay warm and stylish in these premium leather ankle boots, featuring a plush shearling lining and rugged grip.",
+      "materialAndCare": {
+        "material": ["Nubuck Leather", "Shearling lining", "Vibram sole"],
+        "care": [
+          "Keep dry.",
+          "Brush nubuck with a soft brush.",
+          "Air dry naturally."
+        ]
+      }
+    },
+    {
+      "id": "leather-watch-strap",
+      "name": "Leather Watch Strap",
+      "category": "Accessories",
+      "subcategory": "Watch Accessories",
+      "price": 65.0,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.6,
+      "reviewCount": 81,
+      "images": [
+        "/assets/products/leather-watch-strap-1.webp",
+        "/assets/products/leather-watch-strap-2.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "Black", "hex": "#000000", "default": true }],
+      "sizes": ["20mm", "22mm", "24mm"],
+      "inStock": true,
+      "section": "trendingNow",
+      "description": "Upgrade your timepiece with this premium Italian leather strap, complete with a stainless steel buckle.",
+      "materialAndCare": {
+        "material": ["Italian Leather", "Stainless Steel Buckle"],
+        "care": [
+          "Wipe with a dry cloth.",
+          "Condition leather periodically.",
+          "Avoid water."
+        ]
+      }
+    },
+    {
+      "id": "japanese-ceramic-teapot",
+      "name": "Japanese Ceramic Teapot",
+      "category": "Home Decor",
+      "subcategory": "Kitchenware",
+      "price": 78.0,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviewCount": 59,
+      "images": [
+        "/assets/products/japanese-ceramic-teapot-1.webp",
+        "/assets/products/japanese-ceramic-teapot-2.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "Toki White", "hex": "#f0eef0", "default": true }],
+      "sizes": ["One Size"],
+      "inStock": true,
+      "section": "newArrivals",
+      "description": "An authentic Japanese ceramic teapot, designed to perfectly steep your favorite loose-leaf tea with an elegant pour.",
+      "materialAndCare": {
+        "material": ["Japanese Ceramic (Toki)"],
+        "care": [
+          "Hand wash with warm water.",
+          "Do not microwave.",
+          "Dry immediately."
+        ]
+      }
+    },
+    {
+      "id": "velvet-throw-pillow",
+      "name": "Velvet Throw Pillow",
+      "category": "Home Decor",
+      "subcategory": "Pillows",
+      "price": 55.0,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.5,
+      "reviewCount": 122,
+      "images": [
+        "/assets/products/velvet-throw-pillow-1.webp",
+        "/assets/products/velvet-throw-pillow-2.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "Deep Teal", "hex": "#006d5b", "default": true }],
+      "sizes": ["18x18 in", "20x20 in"],
+      "inStock": true,
+      "section": "trendingNow",
+      "description": "Luxuriously soft velvet throw pillow with a hidden zipper. Adds a pop of color and elegance to any living space.",
+      "materialAndCare": {
+        "material": ["100% Velvet", "Down alternative insert"],
+        "care": [
+          "Spot clean only.",
+          "Do not machine wash.",
+          "Fluff regularly to maintain shape."
+        ]
+      }
+    },
+    {
+      "id": "acetate-tortoise-glasses",
+      "name": "Acetate Tortoise Glasses",
+      "category": "Accessories",
+      "subcategory": "Eyewear",
+      "price": 145.0,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.6,
+      "reviewCount": 36,
+      "images": [
+        "/assets/products/acetate-tortoise-glasses-1.webp",
+        "/assets/products/acetate-tortoise-glasses-2.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "Tortoise", "hex": "#8b5a2b", "default": true }],
+      "sizes": ["One Size"],
+      "inStock": true,
+      "section": "newArrivals",
+      "description": "Classic acetate frames in a timeless tortoiseshell pattern, paired with anti-reflective blue-light filtering lenses.",
+      "materialAndCare": {
+        "material": ["Acetate", "Blue-light filter lenses"],
+        "care": [
+          "Clean with a microfiber cloth.",
+          "Avoid harsh chemicals.",
+          "Store in a hard case."
+        ]
+      }
+    },
+    {
+      "id": "cargo-travel-pants",
+      "name": "Cargo Travel Pants",
+      "category": "Apparel",
+      "subcategory": "Trousers",
+      "price": 130.0,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviewCount": 94,
+      "images": [
+        "/assets/products/cargo-travel-pants-1.webp",
+        "/assets/products/cargo-travel-pants-2.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "Olive", "hex": "#556b2f", "default": true }],
+      "sizes": ["30", "32", "34", "36", "38"],
+      "inStock": true,
+      "section": "trendingNow",
+      "description": "Utility meets style. These cargo pants feature multiple functional pockets and are cut from a stretchy, durable fabric.",
+      "materialAndCare": {
+        "material": ["98% Cotton, 2% Elastane"],
+        "care": ["Machine wash cold.", "Tumble dry low.", "Cool iron."]
+      }
+    },
+    {
+      "id": "organic-cotton-robe",
+      "name": "Organic Cotton Robe",
+      "category": "Apparel",
+      "subcategory": "Sleepwear",
+      "price": 160.0,
+      "originalPrice": null,
+      "currency": "USD",
+      "rating": 4.9,
+      "reviewCount": 104,
+      "images": [
+        "/assets/products/organic-cotton-robe-1.webp",
+        "/assets/products/organic-cotton-robe-2.webp"
+      ],
+      "badge": null,
+      "colors": [{ "name": "Cloud White", "hex": "#e8e8e8", "default": true }],
+      "sizes": ["S", "M", "L", "XL"],
+      "inStock": true,
+      "section": "featured",
+      "description": "Ultimate comfort for lounging. This double-layered organic cotton robe is incredibly soft, breathable, and plush.",
+      "materialAndCare": {
+        "material": ["100% Organic Cotton", "Double-layer construction"],
+        "care": [
+          "Machine wash cold.",
+          "Tumble dry low.",
+          "Remove promptly to minimize wrinkles."
+        ]
+      }
     }
   ],
 

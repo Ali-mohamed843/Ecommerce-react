@@ -2,8 +2,11 @@ import { useState, useMemo } from "react";
 import data from "../../products.json";
 import ShopFilters from "../components/Shop/ShopFilters";
 import ProductGrid from "../components/Shop/ProductGrid";
+import useDocumentTitle from "../hooks/useDocumentTitle";
 
 export default function Shop() {
+  useDocumentTitle("LuxeRetail | Shop");
+
   const [selectedCategories, setSelectedCategories] = useState([]);
   const [priceRange, setPriceRange] = useState([0, 2000]);
   const [sortBy, setSortBy] = useState("default");
@@ -18,12 +21,13 @@ export default function Shop() {
     }
 
     result = result.filter(
-      (p) => p.price >= priceRange[0] && p.price <= priceRange[1]
+      (p) => p.price >= priceRange[0] && p.price <= priceRange[1],
     );
 
     if (sortBy === "price-asc") result.sort((a, b) => a.price - b.price);
     else if (sortBy === "price-desc") result.sort((a, b) => b.price - a.price);
-    else if (sortBy === "name") result.sort((a, b) => a.name.localeCompare(b.name));
+    else if (sortBy === "name")
+      result.sort((a, b) => a.name.localeCompare(b.name));
 
     return result;
   }, [selectedCategories, priceRange, sortBy]);
@@ -32,7 +36,7 @@ export default function Shop() {
     setSelectedCategories((prev) =>
       prev.includes(category)
         ? prev.filter((c) => c !== category)
-        : [...prev, category]
+        : [...prev, category],
     );
   };
 

@@ -4,12 +4,15 @@ import Breadcrumbs from "../components/UI/Breadcrumbs";
 import ProductDetailsHero from "../components/ProductDetails/ProductDetailsHero";
 import Accordion from "../components/UI/Accordion";
 import CompleteTheLook from "../components/ProductDetails/CompleteTheLook";
+import useDocumentTitle from "../hooks/useDocumentTitle";
 
 export default function ProductDetails() {
   const { id } = useParams();
 
   const product = getProductById(id);
   const products = getAllProducts(id);
+
+  useDocumentTitle(`LuxeRetail | ${product.name}`);
 
   const relatedProducts = products.slice(0, 4);
 

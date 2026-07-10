@@ -67,11 +67,11 @@ export default function Navbar() {
             </span>
           </button>
 
-          <button className="flex items-center justify-center p-1 hover:bg-surface-variant rounded-full transition-colors cursor-pointer">
-            <span className="material-symbols-outlined text-primary">
-              person
-            </span>
-          </button>
+          <Link to="/login" className="hidden sm:inline text-sm font-semibold text-on-surface-variant hover:text-primary transition-colors">Sign In</Link>
+          <Link to="/register" className="hidden sm:inline bg-primary text-on-primary px-4 py-1.5 rounded-lg text-sm font-semibold hover:opacity-80 transition-opacity">Register</Link>
+          <Link to="/login" className="flex items-center justify-center p-1 sm:hidden hover:bg-surface-variant rounded-full transition-colors cursor-pointer">
+            <span className="material-symbols-outlined text-primary">person</span>
+          </Link>
         </div>
       </div>
     </header>

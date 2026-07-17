@@ -1621,5 +1621,28 @@
       }
     ],
     "copyright": "© 2024 LuxeRetail. All rights reserved."
-  }
+  },
+
+  "vouchers": [
+    {
+      "code": "WELCOME10",
+      "discount": 0.1
+    },
+    {
+      "code": "SAVE15",
+      "discount": 0.15
+    },
+    {
+      "code": "STUDENT20",
+      "discount": 0.2
+    },
+    {
+      "code": "SUMMER25",
+      "discount": 0.25
+    },
+    {
+      "code": "BLACKFRIDAY30",
+      "discount": 0.3
+    }
+  ]
 }

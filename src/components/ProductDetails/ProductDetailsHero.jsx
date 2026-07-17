@@ -2,10 +2,14 @@ import { useParams } from "react-router-dom";
 import { useState } from "react";
 import { getProductById } from "../../services/product-services";
 import ProductImagesGrid from "./ProductImagesGrid";
+import { useDispatch } from "react-redux";
+import { cartActions } from "../../store/cart-slice";
 
 export default function ProductDetailsHero() {
   const { id } = useParams();
   const product = getProductById(id);
+
+  const dispatch = useDispatch();
 
   // the productDetails used to save the user selections and render the UI and later send the backend API request to store the order in the DB
   const [productDetails, setProductDetails] = useState({
@@ -50,6 +54,17 @@ export default function ProductDetailsHero() {
       selectedQunatity: newQuantity,
     }));
   };
+
+  function addProductToCartHandler() {
+    dispatch(
+      cartActions.addItem({
+        product: product,
+        quantity: productDetails.selectedQunatity,
+        selectedColor: productDetails.selectedColor,
+        selectedSize: productDetails.selectedSize,
+      }),
+    );
+  }
 
   return (
     <>
@@ -248,7 +263,10 @@ export default function ProductDetailsHero() {
                 </svg>
               </button>
             </div>
-            <button className="flex-1 flex justify-center items-center gap-2 bg-[#0f5e3f] hover:bg-[#0a4a30] text-white py-3 rounded-md font-medium transition-colors duration-200">
+            <button
+              className="flex-1 flex justify-center items-center gap-2 bg-[#0f5e3f] hover:bg-[#0a4a30] text-white py-3 rounded-md font-medium transition-colors duration-200 cursor-pointer"
+              onClick={addProductToCartHandler}
+            >
               {/* Shopping Bag Icon (Inline SVG) */}
               <svg
                 xmlns="http://www.w3.org/2000/svg"

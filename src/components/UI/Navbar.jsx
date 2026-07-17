@@ -1,9 +1,12 @@
 import { useState, useEffect } from "react";
+import { useSelector } from "react-redux";
 import { Link, useLocation } from "react-router-dom";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const { pathname } = useLocation();
+
+  const { totalQuantity } = useSelector((state) => state.cart);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
@@ -61,16 +64,37 @@ export default function Navbar() {
             </span>
           </div>
 
-          <button className="flex items-center justify-center p-1 hover:bg-surface-variant rounded-full transition-colors cursor-pointer">
-            <span className="material-symbols-outlined text-primary">
-              shopping_cart
-            </span>
-          </button>
+          <Link to="/cart" className={linkClass("/cart")}>
+            <div className="relative">
+              <span className="material-symbols-outlined text-primary">
+                shopping_cart
+              </span>
 
-          <Link to="/login" className="hidden sm:inline text-sm font-semibold text-on-surface-variant hover:text-primary transition-colors">Sign In</Link>
-          <Link to="/register" className="hidden sm:inline bg-primary text-on-primary px-4 py-1.5 rounded-lg text-sm font-semibold hover:opacity-80 transition-opacity">Register</Link>
-          <Link to="/login" className="flex items-center justify-center p-1 sm:hidden hover:bg-surface-variant rounded-full transition-colors cursor-pointer">
-            <span className="material-symbols-outlined text-primary">person</span>
+              <span className="absolute -top-2 -right-2 flex h-5 w-5 items-center justify-center rounded-full bg-red-500 text-[10px] font-bold text-white">
+                {totalQuantity}
+              </span>
+            </div>
+          </Link>
+
+          <Link
+            to="/login"
+            className="hidden sm:inline text-sm font-semibold text-on-surface-variant hover:text-primary transition-colors"
+          >
+            Sign In
+          </Link>
+          <Link
+            to="/register"
+            className="hidden sm:inline bg-primary text-on-primary px-4 py-1.5 rounded-lg text-sm font-semibold hover:opacity-80 transition-opacity"
+          >
+            Register
+          </Link>
+          <Link
+            to="/login"
+            className="flex items-center justify-center p-1 sm:hidden hover:bg-surface-variant rounded-full transition-colors cursor-pointer"
+          >
+            <span className="material-symbols-outlined text-primary">
+              person
+            </span>
           </Link>
         </div>
       </div>

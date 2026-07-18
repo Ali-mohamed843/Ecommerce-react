@@ -76,13 +76,29 @@ const cartSlice = createSlice({
     },
 
     applyVoucher(state, action) {
-      const newVoucher = action.payload.voucher;
+      const newVoucher = action.payload.voucher.trim();
+
+      // Recalculate original total first
+      const totals = calculateTotals(state.items);
+      let totalPrice = totals.totalPrice;
+
+      // No voucher entered
+      if (!newVoucher) {
+        state.totalPrice = totalPrice;
+        state.voucher = {
+          status: "",
+          message: "",
+          code: "",
+        };
+        return;
+      }
 
       const discount = data.vouchers.find(
-        (voucher) => voucher.code === newVoucher,
+        (voucher) => voucher.code.toLowerCase() === newVoucher.toLowerCase(),
       );
 
       if (!discount) {
+        state.totalPrice = totalPrice;
         state.voucher = {
           status: "error",
           message: "Invalid voucher code",
@@ -91,16 +107,8 @@ const cartSlice = createSlice({
         return;
       }
 
-      if (state.voucher.code === newVoucher) {
-        state.voucher = {
-          status: "error",
-          message: "Voucher already applied",
-          code: newVoucher,
-        };
-        return;
-      }
-
-      state.totalPrice *= 1 - discount.discount;
+      // Apply discount to the fresh total
+      state.totalPrice = totalPrice * (1 - discount.discount);
 
       state.voucher = {
         status: "success",

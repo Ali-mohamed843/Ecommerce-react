@@ -16,9 +16,9 @@ export default function ProductCard({ product }) {
               {product.badge}
             </span>
           )}
-          {(product.discountPercent || 0) > 0 && (
+          {product.originalPrice && (
             <span className="absolute top-2 right-2 bg-error text-on-error px-2 py-1 text-[10px] font-bold rounded">
-              -{product.discountPercent}%
+              -{Math.round(((product.originalPrice - product.price) / product.originalPrice) * 100)}%
             </span>
           )}
         </div>

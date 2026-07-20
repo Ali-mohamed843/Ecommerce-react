@@ -8,6 +8,9 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Cart from "./pages/Cart";
+import Checkout from "./pages/Checkout";
+import Receipt from "./pages/Receipt";
+import Deals from "./pages/Deals";
 import store from "./store";
 import { Provider } from "react-redux";
 
@@ -24,7 +27,10 @@ function App() {
             <Route path="/products/:id" element={<ProductDetails />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
+            <Route path="/deals" element={<Deals />} />
             <Route path="/cart" element={<Cart />} />
+            <Route path="/checkout" element={<Checkout />} />
+            <Route path="/receipt" element={<Receipt />} />
           </Routes>
           <Footer />
         </div>

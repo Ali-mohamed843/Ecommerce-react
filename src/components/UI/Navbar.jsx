@@ -41,12 +41,9 @@ export default function Navbar() {
           <Link to="/shop" className={linkClass("/shop")}>
             Shop
           </Link>
-          <a
-            className="text-on-surface-variant hover:text-primary transition-colors duration-200"
-            href="#"
-          >
+          <Link to="/deals" className={linkClass("/deals")}>
             Deals
-          </a>
+          </Link>
           <Link to="/about-us" className={linkClass("/about-us")}>
             About Us
           </Link>

@@ -4,6 +4,7 @@ import { getProductById } from "../../services/product-services";
 import ProductImagesGrid from "./ProductImagesGrid";
 import { useDispatch } from "react-redux";
 import { cartActions } from "../../store/cart-slice";
+import { getProductImages } from "../../utils/productImages";
 
 export default function ProductDetailsHero() {
   const { id } = useParams();
@@ -70,7 +71,7 @@ export default function ProductDetailsHero() {
     <>
       {/* Main Product Section */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 mb-16">
-        <ProductImagesGrid images={product.images} />
+        <ProductImagesGrid images={getProductImages(product)} />
         {/* Right Column: Details */}
         <div className="flex flex-col">
           {/* Badge & Title */}

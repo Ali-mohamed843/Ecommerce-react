@@ -1,11 +1,17 @@
 import { useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 
 export default function OrderSummaryCard() {
   const { totalPrice, shipping, tax } = useSelector((state) => state.cart);
+  const navigate = useNavigate();
 
-  const total = totalPrice + shipping + totalPrice * tax;
+  const taxAmount = totalPrice * tax;
+  const total = totalPrice + shipping + taxAmount;
 
-  function onCheckout() {}
+  function onCheckout() {
+    if (totalPrice === 0) return;
+    navigate("/checkout");
+  }
 
   return (
     <div className="p-6 bg-white rounded-lg border border-gray-200 shadow-sm">
@@ -29,7 +35,7 @@ export default function OrderSummaryCard() {
 
         <div className="flex justify-between text-gray-600">
           <span>Estimated Tax</span>
-          <span className="text-gray-900">${tax.toFixed(2)}</span>
+          <span className="text-gray-900">${taxAmount.toFixed(2)}</span>
         </div>
       </div>
 

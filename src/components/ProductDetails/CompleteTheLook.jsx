@@ -1,4 +1,5 @@
 import ProductCard2 from "../UI/ProductCard2";
+import { getProductImage } from "../../utils/productImages";
 
 export default function CompleteTheLook({
   products = [],
@@ -46,11 +47,7 @@ export default function CompleteTheLook({
         {products.map((product) => (
           <ProductCard2
             key={product.id}
-            image={
-              product.images && product.images.length > 0
-                ? product.images[0]
-                : ""
-            }
+            image={getProductImage(product)}
             name={product.name}
             price={product.price}
             alt={product.name}

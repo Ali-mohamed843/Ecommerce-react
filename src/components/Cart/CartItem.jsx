@@ -1,5 +1,6 @@
 import { useDispatch } from "react-redux";
 import { cartActions } from "../../store/cart-slice";
+import { getProductImage } from "../../utils/productImages";
 
 export default function CartItem({ item }) {
   const product = item.product;
@@ -20,7 +21,7 @@ export default function CartItem({ item }) {
       {/* Item Image */}
       <div className="w-full sm:w-28 h-28 shrink-0 bg-gray-100 rounded-md overflow-hidden">
         <img
-          src={product.images[0]}
+          src={getProductImage(product)}
           alt={product.name}
           className="w-full h-full object-cover"
         />
